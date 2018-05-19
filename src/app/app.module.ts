@@ -22,12 +22,12 @@ import {MatSnackBarModule} from '@angular/material';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, AppRouterModule, BrowserAnimationsModule, AngularFireAuthModule, MatFormFieldModule, MatInputModule, ReactiveFormsModule, MatButtonModule, MatSnackBarModule,  AngularFireModule.initializeApp({
-     apiKey: "AIzaSyAAW4r-dbV7Uwz7VogQZR9vTQjIEQRTCp0",
-    authDomain: "compsci-62728.firebaseapp.com",
-    databaseURL: "https://compsci-62728.firebaseio.com",
-    projectId: "compsci-62728",
-    storageBucket: "compsci-62728.appspot.com",
-    messagingSenderId: "627146967206"
+     apiKey: "**********",
+    authDomain: "**********",
+    databaseURL: "**********",
+    projectId: "**********",
+    storageBucket: "**********",
+    messagingSenderId: "**********"
   }) ],
   declarations: [ AppComponent, LoginComponent, SignupComponent, DashboardComponent ],
   bootstrap:    [ AppComponent ],
