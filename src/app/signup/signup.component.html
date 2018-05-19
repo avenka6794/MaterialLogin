@@ -1,0 +1,54 @@
+<div class="main mat-elevation-z20">
+
+	<img class="logo" src="https://res.cloudinary.com/dmuqfofzn/image/upload/v1509731619/login-logo_wo4npb.png">
+ 
+	<p class="intro-txt">R E G I S T E R </p>
+
+<form (ngSubmit)="onSubmit(email.value, password.value, name.value)">
+	<table>
+		<tr>
+			<td><i class="material-icons">account_circle</i></td>
+			<td>
+				<mat-form-field>
+
+					<input matInput placeholder="Email" [formControl]="email">
+           <mat-error *ngIf="email.invalid">{{getEmailErrorMessage()}}</mat-error>
+				</mat-form-field>
+			</td>
+		</tr>
+		<tr>
+			<td><i class="material-icons">security</i></td>
+			<td>
+				<mat-form-field>
+
+					<input matInput placeholder="Password" [formControl]="password">
+          <mat-error *ngIf="password.invalid">{{getPasswordErrorMessage()}}</mat-error>
+
+				</mat-form-field>
+			</td>
+		</tr>
+    	<tr>
+			<td><i class="material-icons">face</i></td>
+			<td>
+				<mat-form-field>
+
+					<input matInput placeholder="Name (optional)" [formControl]="name">
+           
+				</mat-form-field>
+			</td>
+		</tr>
+ 
+	</table>
+
+ <button mat-raised-button color="accent" [disabled]="password.invalid || email.invalid">Sign Up</button>
+
+ </form>
+    <br>
+
+    <a class='left' routerLink="login">Login Now!</a>
+     <a class='right' (click)="openSnack()">Forgot Password?</a>
+
+
+
+
+</div>

@@ -1,0 +1,12 @@
+/* Add application styles & imports to this file! */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body, html{
+  background-color: #00bcd4;
+  width: 100vw;
+
+ vertical-align: center;
+  overflow-x: hidden;
+  
+}
