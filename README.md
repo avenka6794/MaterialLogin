@@ -1,4 +1,10 @@
-# md-login
+# MaterialLogin
+
+Complete Login/Register system built with Angular, Typescript, and Firebase (for authentication)
+
+## Demo
+
+https://md-login.stackblitz.io
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
 
