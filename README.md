@@ -1,2 +1,7 @@
 # MaterialLogin
-Material Design login system built with angular
+
+Complete Login/Register system built with Angular and Typescript
+
+## Demo
+
+https://md-login.stackblitz.io
