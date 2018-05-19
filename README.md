@@ -5,7 +5,6 @@ Complete Login/Register system built with Angular, Typescript, and Firebase (for
 ## Demo
 
 https://md-login.stackblitz.io
-<<<<<<< HEAD
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
 
